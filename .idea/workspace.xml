@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6d602f3-1cad-448a-b766-9b20931e1c75" name="Default" comment="" />
+    <ignored path="sa.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sa" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="security.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/security.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserProvider.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Providers/UserProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="52" selection-start="690" selection-end="690" vertical-scroll-proportion="-0.039325844" vertical-offset="360" max-vertical-offset="1250">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageDigestPasswordEncoder.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Encoder/MessageDigestPasswordEncoder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="54" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="1950">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/User/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="0" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0" vertical-offset="1775" max-vertical-offset="3150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/src/errors.php" />
+        <option value="$PROJECT_DIR$/src/controllers.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin.html.twig" />
+        <option value="$PROJECT_DIR$/resources/views/login.html.twig" />
+        <option value="$PROJECT_DIR$/config/dev.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/config/config.php" />
+        <option value="$PROJECT_DIR$/config/prod.php" />
+        <option value="$PROJECT_DIR$/src/renders.php" />
+        <option value="$PROJECT_DIR$/src/Resources/security.php" />
+        <option value="$PROJECT_DIR$/src/security.php" />
+        <option value="$PROJECT_DIR$/src/router.php" />
+        <option value="$PROJECT_DIR$/web/index_dev.php" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/src/app.php" />
+        <option value="$PROJECT_DIR$/src/Controllers/homepage.php" />
+        <option value="$PROJECT_DIR$/src/Providers/UserProvider.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" />
+  <component name="PhpServers">
+    <option name="servers">
+      <server deployment_server="e66eccfc-fe06-4c5b-97b2-035e16d1385e" host="sa" name="sa" validation_dir="C:\OpenServer\domains\sa\web" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP5.5">
+    <include_path>
+      <path value="C:\OpenServer\domains\sa\vendor" />
+      <path value="C:\OpenServer\domains\sa\src" />
+      <path value="C:\OpenServer\domains\sa\resources" />
+      <path value="C:\OpenServer\domains\sa\config" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="SearchEverywhereHistory" value="public function Index(Request $request,Application $app){         return $app['twig']-&gt;render('index.html.twig', array());     }" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\sa\resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\sa\src" />
+      <recent name="C:\OpenServer\domains\sa\resources\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.sa">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="false" name="sa" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="sa">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.sa" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6d602f3-1cad-448a-b766-9b20931e1c75" name="Default" comment="" />
+      <created>1436558739476</created>
+      <updated>1436558739476</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controllers/homepage.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/router.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/security.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controllers/homepage.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Providers/UserProvider.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Providers/UserProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="52" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="575" max-vertical-offset="1250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Encoder/MessageDigestPasswordEncoder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="1950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/User/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0" vertical-offset="1775" max-vertical-offset="3150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Providers/UserProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="28" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/User/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0" vertical-offset="1775" max-vertical-offset="3150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/twig/6/a/6a1c99858e98a5742f426e3d27f921f5e5df4b13db6524f6340b09bab30798b1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="-2.9411764" vertical-offset="0" max-vertical-offset="2000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="345" column="0" selection-start="10550" selection-end="10550" vertical-scroll-proportion="-4.852941" vertical-offset="8285" max-vertical-offset="32275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="316" column="5" selection-start="8595" selection-end="8595" vertical-scroll-proportion="-10.735294" vertical-offset="7335" max-vertical-offset="13350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="38" selection-start="44" selection-end="44" vertical-scroll-proportion="0.04901961" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.49019608" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="490" selection-end="490" vertical-scroll-proportion="-10.264706" vertical-offset="1" max-vertical-offset="600">
+          <folding>
+            <element signature="e#97#133#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/silex/web-profiler/Silex/Provider/WebProfilerServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="23" selection-start="11737" selection-end="11747" vertical-scroll-proportion="-1.6516854" vertical-offset="5528" max-vertical-offset="6000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/errors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="-4.4117646" vertical-offset="0" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="684" selection-end="684" vertical-scroll-proportion="-11.029411" vertical-offset="75" max-vertical-offset="750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.6764705" vertical-offset="0" max-vertical-offset="575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.9411764" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="147" selection-end="155" vertical-scroll-proportion="0.051124744" vertical-offset="125" max-vertical-offset="975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/debug/DebugClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="0" selection-start="9469" selection-end="9469" vertical-scroll-proportion="-6.647059" vertical-offset="5949" max-vertical-offset="6425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="423" selection-end="423" vertical-scroll-proportion="-8.6470585" vertical-offset="6" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="0" selection-start="2397" selection-end="2397" vertical-scroll-proportion="-4.852941" vertical-offset="1735" max-vertical-offset="6125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Authentication/AuthenticationProviderManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="0" selection-start="3937" selection-end="3937" vertical-scroll-proportion="-7.382353" vertical-offset="2249" max-vertical-offset="2725" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Http/Firewall/AbstractAuthenticationListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="0" selection-start="7163" selection-end="7163" vertical-scroll-proportion="-4.647059" vertical-offset="3292" max-vertical-offset="5575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/WrappedListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-8.5" vertical-offset="1211" max-vertical-offset="1700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1444" selection-end="1444" vertical-scroll-proportion="-4.647059" vertical-offset="1017" max-vertical-offset="4600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Http/Firewall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-4.7941175" vertical-offset="712" max-vertical-offset="2300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/pimple/pimple/lib/Pimple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="0" selection-start="4099" selection-end="4099" vertical-scroll-proportion="-4.7941175" vertical-offset="2487" max-vertical-offset="4950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1888" selection-end="1888" vertical-scroll-proportion="-4.647059" vertical-offset="1192" max-vertical-offset="8250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/silex/silex/src/Silex/Provider/SecurityServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="588" column="0" selection-start="26988" selection-end="26988" vertical-scroll-proportion="-4.647059" vertical-offset="13317" max-vertical-offset="13800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="-8.5" vertical-offset="261" max-vertical-offset="750">
+          <folding>
+            <element signature="e#123#145#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/HttpKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="0" selection-start="5838" selection-end="5838" vertical-scroll-proportion="-4.647059" vertical-offset="3542" max-vertical-offset="6975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/silex/silex/src/Silex/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="560" column="0" selection-start="19427" selection-end="19427" vertical-scroll-proportion="-4.647059" vertical-offset="13092" max-vertical-offset="14275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/debug/ErrorHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="560" column="0" selection-start="20539" selection-end="20539" vertical-scroll-proportion="-4.647059" vertical-offset="13442" max-vertical-offset="18275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="0" selection-start="3854" selection-end="3854" vertical-scroll-proportion="-4.647059" vertical-offset="3917" max-vertical-offset="4525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/User/UserChecker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1439" selection-end="1439" vertical-scroll-proportion="-4.7941175" vertical-offset="862" max-vertical-offset="1625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Authentication/Provider/UserAuthenticationProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="2906" selection-end="2906" vertical-scroll-proportion="-4.647059" vertical-offset="1592" max-vertical-offset="3650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Authentication/Provider/DaoAuthenticationProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="2711" selection-end="2711" vertical-scroll-proportion="-4.647059" vertical-offset="1117" max-vertical-offset="2275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Encoder/EncoderFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1747" selection-end="1747" vertical-scroll-proportion="-4.647059" vertical-offset="1092" max-vertical-offset="2050" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/User/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0" vertical-offset="1775" max-vertical-offset="3150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Encoder/BasePasswordEncoder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="15" selection-start="488" selection-end="488" vertical-scroll-proportion="-0.23595506" vertical-offset="535" max-vertical-offset="2475" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Encoder/MessageDigestPasswordEncoder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="1950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Providers/UserProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="52" selection-start="690" selection-end="690" vertical-scroll-proportion="-0.039325844" vertical-offset="360" max-vertical-offset="1250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
