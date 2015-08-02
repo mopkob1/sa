@@ -16,9 +16,10 @@ $routeCol->add("main",
     new Route("/",array("_controller"=>"Controllers\homepage::Index")));
 $routeCol->add("admin",
     new Route("/admin",array("_controller"=>"Controllers\homepage::Admin")));
+/*
 $routeCol->add("admint",
     new Route("/admin/t",array("_controller"=>"Controllers\homepage::Admin")));
 $routeCol->add("login",
-    new Route("/login",array("_controller"=>"Controllers\homepage::Login")));
+    new Route("/login",array("_controller"=>"Controllers\homepage::Login")));*/
 
 $app['routes']->addCollection($routeCol);
