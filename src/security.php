@@ -1,8 +1,24 @@
 <?php
 use Providers\UserProvider;
 
+$app['user.options'] = array(
+    'templates' => array(
+        'layout' => 'usermanager\layout.twig',
+        'register' => 'usermanager\register.twig',
+        'register-confirmation-sent' => 'usermanager\register-confirmation-sent.twig',
+        'login' => 'usermanager\login.twig',
+        'login-confirmation-needed' => 'usermanager\login-confirmation-needed.twig',
+        'forgot-password' => 'usermanager\forgot-password.twig',
+        'reset-password' => 'usermanager\reset-password.twig',
+        'view' => 'usermanager\view.twig',
+        'edit' => 'usermanager\edit.twig',
+        'list' => 'usermanager\list.twig',
+    ),
+    'interface.strings' => require_once 'translation.php'
+);
+
 $app->mount('/user',$sup);         //монтирует все роуты разом.
-                                    //Переменная $sup определена в $app
+                                    //Переменная $sup определена в app
 
 $app['security.firewalls'] = array(
     'admin' => array(
