@@ -7,15 +7,15 @@ Variables passed to this template:
 
 {# The subject line. #}
 {%- block subject -%}{%- autoescape false -%}
-    Welcome! Please confirm your email.
+{{ interface('email.confirm_1') }}
 {%- endautoescape -%}{%- endblock -%}
 
 {# The plain text message. #}
 {%- block body_text -%}{%- autoescape false -%}
 
-Thanks for joining our site!
+{{ interface('email.confirm_2') }}
 
-Please click the link below to confirm your email:
+{{ interface('email.confirm_3') }}
 {{ confirmationUrl }}
 
 {%- endautoescape -%}{%- endblock -%}
@@ -23,10 +23,10 @@ Please click the link below to confirm your email:
 {# The HTML message. Optional. #}
 {%- block body_html -%}
 
-    <h1>Thanks for joining our site!</h1>
+    <h1>{{ interface('email.confirm_2') }}</h1>
 
     <p>
-        Please <a href="{{ confirmationUrl }}">click here to confirm your email</a>.
+        {{ interface('email.confirm_4') }} <a href="{{ confirmationUrl }}">{{ interface('email.confirm_5') }}</a>.
     </p>
 
 {%- endblock -%}

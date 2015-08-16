@@ -1,18 +1,18 @@
 {% extends layout_template  %}
 
-{% block title %}List users{% endblock %}
+{% block title %}{{ interface('listuser') }}{% endblock %}
 
 {% block content %}
 
-    <h1>List users</h1>
+    <h1>{{ interface('listuser') }}</h1>
 
     {% if paginator.totalItems == 1 %}
-        <strong>1</strong> user found.
+        {{ interface('1userfound_1') }} <strong>1</strong> {{ interface('1userfound_2') }}
     {% else %}
-        <strong>{{ paginator.totalItems }}</strong> users found.
+        {{ interface('usersfound_1') }}<strong>{{ paginator.totalItems }}</strong>{{ interface('usersfound_2') }}
     {% endif %}
 
-    Showing <strong>{{ paginator.currentPageFirstItem }} - {{ paginator.currentPageLastItem }}</strong>.
+    {{ interface('showing') }} <strong>{{ paginator.currentPageFirstItem }} - {{ paginator.currentPageLastItem }}</strong>.
 
     {% for user in users %}
 
@@ -28,7 +28,7 @@
 
                 {% if not user.isEnabled %}
                     <div>
-                        <span class="label label-danger">Pending email confirmation</span>
+                        <span class="label label-danger">{{ interface('pendingemail') }}</span>
                     </div>
                 {% endif %}
 

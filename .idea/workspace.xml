@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6d602f3-1cad-448a-b766-9b20931e1c75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/email/confirm-email.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/edit.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/forgot-password.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/layout.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/list.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/login-confirmation-needed.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/login.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/register-confirmation-sent.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/register.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/reset-password.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/email/reset-password.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/translation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/view.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/common.php" afterPath="$PROJECT_DIR$/config/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renders.php" afterPath="$PROJECT_DIR$/src/renders.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/security.php" afterPath="$PROJECT_DIR$/src/security.php" />
+    <list default="true" id="b6d602f3-1cad-448a-b766-9b20931e1c75" name="Default" comment="SimplUserManagment с руссификацией стандартных форм управления.&#10;Переведено все!!! Включая тексты писем.&#10;&#10;Все сделано с использованием twig-фильтра interface&#10;Подробности в security.php и translation.php&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/email/confirm-email.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/email/confirm-email.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/edit.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/edit.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/forgot-password.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/forgot-password.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/layout.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/layout.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/list.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/list.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/login-confirmation-needed.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/login-confirmation-needed.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/login.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/login.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/register-confirmation-sent.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/register-confirmation-sent.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/reset-password.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/reset-password.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/email/reset-password.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/email/reset-password.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/translation.php" afterPath="$PROJECT_DIR$/src/translation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/views/usermanager/view.twig" afterPath="$PROJECT_DIR$/src/Resources/views/usermanager/view.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sa.iws" />
@@ -43,7 +39,7 @@
             <file leaf-file-name="translation.php" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/translation.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="33" column="26" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.50980395" vertical-offset="539" max-vertical-offset="1500">
+                  <state line="79" column="75" selection-start="3530" selection-end="3530" vertical-scroll-proportion="0.719888" vertical-offset="1461" max-vertical-offset="3925">
                     <folding />
                   </state>
                 </provider>
@@ -59,26 +55,7 @@
     <favorites_list name="sa" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="security.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/security.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="11" selection-start="40" selection-end="54" vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="1300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/register.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="3208" selection-end="3208" vertical-scroll-proportion="1.2823315" vertical-offset="1121" max-vertical-offset="1975">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -119,13 +96,21 @@
         <option value="$PROJECT_DIR$/src/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/db.php" />
         <option value="$PROJECT_DIR$/src/router.php" />
-        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/edit.twig" />
         <option value="$PROJECT_DIR$/config/common.php" />
         <option value="$PROJECT_DIR$/src/security.php" />
-        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/layout.twig" />
         <option value="$PROJECT_DIR$/src/renders.php" />
-        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/login.twig" />
         <option value="$PROJECT_DIR$/src/Resources/views/usermanager/register.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/forgot-password.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/layout.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/edit.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/view.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/list.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/login-confirmation-needed.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/register-confirmation-sent.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/login.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/reset-password.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/email/reset-password.twig" />
+        <option value="$PROJECT_DIR$/src/Resources/views/usermanager/email/confirm-email.twig" />
         <option value="$PROJECT_DIR$/src/translation.php" />
       </list>
     </option>
@@ -176,6 +161,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,79 +240,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usermanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Providers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.File Status" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -431,7 +354,11 @@
       <created>1438551464425</created>
       <updated>1438551464425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SimplUserManagment с руссификацией стандартных форм управления.&#10; Сделаны только layout,login и register&#10; К Twig добавлен новый фильтр - interface. Позволяет интерфейсные строки записывать в одном месте и управлять ими при помощи локали.&#10;Подробности в security.php и translation.php">
+      <created>1439157297155</created>
+      <updated>1439157297155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -458,22 +385,22 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33656958" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32038835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544196" sideWeight="0.6463022" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544196" sideWeight="0.64603174" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544196" sideWeight="0.35369775" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544196" sideWeight="0.35396826" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32038835" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -493,7 +420,9 @@
     </option>
     <MESSAGE value="Версия с моим UserProvider. Эмуляция получения пользователя из БД&#10;+Научился подключать БД к редактору" />
     <MESSAGE value="Настроенный SimplUserManagment. Весия из кооробки без изменений" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настроенный SimplUserManagment. Весия из кооробки без изменений" />
+    <MESSAGE value="SimplUserManagment с руссификацией стандартных форм управления.&#10; Сделаны только layout,login и register&#10; К Twig добавлен новый фильтр - interface. Позволяет интерфейсные строки записывать в одном месте и управлять ими при помощи локали.&#10;Подробности в security.php и translation.php" />
+    <MESSAGE value="SimplUserManagment с руссификацией стандартных форм управления.&#10;Переведено все!!! Включая тексты писем.&#10;&#10;Все сделано с использованием twig-фильтра interface&#10;Подробности в security.php и translation.php&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="SimplUserManagment с руссификацией стандартных форм управления.&#10;Переведено все!!! Включая тексты писем.&#10;&#10;Все сделано с использованием twig-фильтра interface&#10;Подробности в security.php и translation.php&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -501,56 +430,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/var/cache/twig/6/a/6a1c99858e98a5742f426e3d27f921f5e5df4b13db6524f6340b09bab30798b1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="-2.9411764" vertical-offset="0" max-vertical-offset="2000" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="345" column="0" selection-start="10550" selection-end="10550" vertical-scroll-proportion="-4.852941" vertical-offset="8285" max-vertical-offset="32275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="316" column="5" selection-start="8595" selection-end="8595" vertical-scroll-proportion="-10.735294" vertical-offset="7335" max-vertical-offset="13350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/views/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/silex/web-profiler/Silex/Provider/WebProfilerServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="23" selection-start="11737" selection-end="11747" vertical-scroll-proportion="-1.6516854" vertical-offset="5528" max-vertical-offset="6000" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/debug/DebugClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="0" selection-start="9469" selection-end="9469" vertical-scroll-proportion="-6.647059" vertical-offset="5949" max-vertical-offset="6425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="2397" selection-end="2397" vertical-scroll-proportion="-4.852941" vertical-offset="1735" max-vertical-offset="6125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Authentication/AuthenticationProviderManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="0" selection-start="3937" selection-end="3937" vertical-scroll-proportion="-7.382353" vertical-offset="2249" max-vertical-offset="2725" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Http/Firewall/AbstractAuthenticationListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="0" selection-start="7163" selection-end="7163" vertical-scroll-proportion="-4.647059" vertical-offset="3292" max-vertical-offset="5575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/WrappedListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-8.5" vertical-offset="1211" max-vertical-offset="1700" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="0" selection-start="1444" selection-end="1444" vertical-scroll-proportion="-4.647059" vertical-offset="1017" max-vertical-offset="4600" />
@@ -614,11 +493,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="350" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/homepage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="-8.323529" vertical-offset="142" max-vertical-offset="725" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Providers/UserProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="807" selection-end="807" vertical-scroll-proportion="0.21107267" vertical-offset="317" max-vertical-offset="1250" />
@@ -664,135 +538,186 @@
         <state line="580" column="0" selection-start="19981" selection-end="19981" vertical-scroll-proportion="0.3852459" vertical-offset="13421" max-vertical-offset="14275" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/email/confirm-email.twig">
+    <entry file="file://$PROJECT_DIR$/src/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="925">
-          <folding />
-        </state>
+        <state line="8" column="12" selection-start="198" selection-end="198" vertical-scroll-proportion="0.23068051" vertical-offset="0" max-vertical-offset="867" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/edit.twig">
+    <entry file="file://$PROJECT_DIR$/web/index_dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="35" selection-start="2674" selection-end="2684" vertical-scroll-proportion="0.0" vertical-offset="1446" max-vertical-offset="2675">
+        <state line="19" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.5478662" vertical-offset="0" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="105" selection-end="105" vertical-scroll-proportion="0.17793594" vertical-offset="0" max-vertical-offset="562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.7117438" vertical-offset="75" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="153" selection-end="153" vertical-scroll-proportion="0.22241993" vertical-offset="0" max-vertical-offset="575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="565" selection-end="565" vertical-scroll-proportion="0.5338078" vertical-offset="0" max-vertical-offset="562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/errors/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/errors/500.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/errors/404.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="44" selection-start="122" selection-end="149" vertical-scroll-proportion="-3.6764705" vertical-offset="0" max-vertical-offset="725" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="693" selection-end="693" vertical-scroll-proportion="0.5481928" vertical-offset="52" max-vertical-offset="550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/jasongrimes/silex-simpleuser/src/SimpleUser/views/login.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="231" selection-end="237" vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="725">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="2" selection-start="444" selection-end="444" vertical-scroll-proportion="0.3171857" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="198" selection-end="198" vertical-scroll-proportion="0.23068051" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index_dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.5478662" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/prod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="105" selection-end="105" vertical-scroll-proportion="0.17793594" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.7117438" vertical-offset="75" max-vertical-offset="650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="153" selection-end="153" vertical-scroll-proportion="0.22241993" vertical-offset="0" max-vertical-offset="575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="565" selection-end="565" vertical-scroll-proportion="0.5338078" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/views/errors/default.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/views/errors/500.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/views/errors/404.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="122" selection-end="149" vertical-scroll-proportion="-3.6764705" vertical-offset="0" max-vertical-offset="725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/layout.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="85" selection-start="3623" selection-end="3623" vertical-scroll-proportion="-0.39175257" vertical-offset="1615" max-vertical-offset="2100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="693" selection-end="693" vertical-scroll-proportion="0.5481928" vertical-offset="52" max-vertical-offset="550">
+        <state line="18" column="2" selection-start="444" selection-end="444" vertical-scroll-proportion="0.47008547" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/security.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="40" selection-end="54" vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="1300">
+        <state line="3" column="11" selection-start="40" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/edit.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="93" selection-start="2603" selection-end="2603" vertical-scroll-proportion="0.2263056" vertical-offset="1333" max-vertical-offset="2675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/jasongrimes/silex-simpleuser/src/SimpleUser/views/edit.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="81" selection-start="1959" selection-end="1971" vertical-scroll-proportion="0.48076922" vertical-offset="975" max-vertical-offset="2675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/list.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="49" selection-end="76" vertical-scroll-proportion="0.08547009" vertical-offset="0" max-vertical-offset="1325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/forgot-password.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="16" selection-start="1235" selection-end="1266" vertical-scroll-proportion="0.71623933" vertical-offset="406" max-vertical-offset="1150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/login.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="49" selection-end="73" vertical-scroll-proportion="0.10309278" vertical-offset="0" max-vertical-offset="1675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/translation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="26" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.50980395" vertical-offset="539" max-vertical-offset="1500">
+        <state line="2" column="19" selection-start="49" selection-end="73" vertical-scroll-proportion="0.08741259" vertical-offset="0" max-vertical-offset="1675">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/register.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="3208" selection-end="3208" vertical-scroll-proportion="1.2823315" vertical-offset="1121" max-vertical-offset="1975">
+        <state line="73" column="0" selection-start="3208" selection-end="3208" vertical-scroll-proportion="1.270979" vertical-offset="1098" max-vertical-offset="1975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/register-confirmation-sent.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="52" selection-start="84" selection-end="84" vertical-scroll-proportion="0.08547009" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/reset-password.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="64" selection-start="802" selection-end="802" vertical-scroll-proportion="0.7814685" vertical-offset="128" max-vertical-offset="1075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/view.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="68" selection-start="539" selection-end="568" vertical-scroll-proportion="0.72649574" vertical-offset="0" max-vertical-offset="1225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/email/reset-password.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="273" selection-end="306" vertical-scroll-proportion="0.24615385" vertical-offset="81" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/translation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="75" selection-start="3530" selection-end="3530" vertical-scroll-proportion="0.719888" vertical-offset="1461" max-vertical-offset="3925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/email/confirm-email.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="109" selection-start="804" selection-end="804" vertical-scroll-proportion="0.61538464" vertical-offset="340" max-vertical-offset="925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="21" selection-start="4191" selection-end="4191" vertical-scroll-proportion="0.5575221" vertical-offset="1535" max-vertical-offset="2100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/views/usermanager/login-confirmation-needed.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="346" selection-end="346" vertical-scroll-proportion="0.51903117" vertical-offset="0" max-vertical-offset="700">
           <folding />
         </state>
       </provider>
