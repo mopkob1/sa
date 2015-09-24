@@ -8,13 +8,16 @@
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Symfony\Component\HttpKernel\Exception\HttpException;
 
-$app->error(function (\Exception $e, Request $request, $code) use ($app) {
+//$app->error(function (\Exception $e, Request $request, $code) use ($app) {
+$app->error(function (\Exception $e) use ($app) {
     if ($app['debug']) {
         return;
     }
-
+    $code=($e instanceof HttpException) ? $e->getStatusCode() : $e->getCode();
     // 404.html, or 40x.html, or 4xx.html, or error.html
+
     $templates = array(
         'errors/'.$code.'.html.twig',
         'errors/'.substr($code, 0, 2).'x.html.twig',
