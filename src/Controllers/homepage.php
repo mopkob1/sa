@@ -14,6 +14,10 @@ use Symfony\Component\HttpFoundation\Request;
 
 class homepage {
     public function Index(Request $request,Application $app){
+        //$reader=\PHPExif\Reader\Reader::factory(\PHPExif\Reader\Reader::TYPE_NATIVE);
+        /*$a=$reader->read();
+        $exif=\PHPExif\Exif::*/
+
         return $app['twig']->render('index.html.twig', array());
     }
     public function Admin(Request $request,Application $app){
